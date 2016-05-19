@@ -1,0 +1,117 @@
+/* app css stylesheet */
+.panel {
+    opacity: 0.85;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+body {
+	font-size: 12pt;
+	font-family: font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	height: 100%;
+}
+
+* {
+	border-radius: 0 !important;
+	border: none;
+}
+#navbar {
+	background-color: transparent;
+	border: none;
+	margin-bottom: 50px;
+}
+
+.panel-heading {
+	color: rgb(228, 228, 228) !important;
+	background-color: rgb(208, 122, 92) !important;
+	border: none !important;
+}
+.btn-primary {
+	color: rgb(228, 228, 228) !important;
+	background-color: rgb(208, 122, 92) !important;
+	border: none !important;
+	width:100%;
+}
+html, body {
+    height:100%;
+}
+.panel form {
+    margin: 15px;
+}
+
+/*
+body {
+    background-image: url("../css/background.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+*/
+
+.button{
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom:10px;
+}
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad {
+	margin-top:20px;
+}
+
+.special-form {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.special-btn{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-top: 15px;
+}
+
+
+  
