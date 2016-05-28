@@ -78,7 +78,7 @@ define([
                 }).
                 when('/home', {
                     templateUrl: 'partials/home',
-                    controller: 'HomeCtrl',
+                    controller: 'LoginCtrl',
                     controllerAs: 'vm',
                     access: { requiredLogin: false }
                 }).
