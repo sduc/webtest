@@ -472,6 +472,13 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+.team-member img:hover, img:focus, img:active {
+    opacity:0.5;
+    background-color: #fed136
 }
 .team-member h4 {
     margin-top: 25px;
